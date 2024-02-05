@@ -5,7 +5,6 @@ import Resources.Resource;
 
 public class ComicFactory implements Factory {
     private String illustrator;
-
     public ComicFactory(String illustrator) {
         this.illustrator = illustrator;
     }
