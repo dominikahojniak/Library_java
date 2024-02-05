@@ -6,7 +6,6 @@ import Resources.Audiobook;
 import Resources.Book;
 import Resources.Comic;
 import Resources.Magazine;
-
 import java.util.InputMismatchException;
 import java.util.Scanner;
 public class Console extends Show{
@@ -14,6 +13,7 @@ public class Console extends Show{
     public Console() {
         this.librarySystem = new LibrarySystem(new ResourceRepository(), new BorrowRepository(),new UserRepository(), new RateRepository());
     }
+
     public static void main(String[] args) {
         Console console = new Console();
         console.menu();
